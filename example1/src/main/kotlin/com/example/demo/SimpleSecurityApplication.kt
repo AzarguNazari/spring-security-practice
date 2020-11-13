@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
-class Example1SecurityApplication{
+class SimpleSecurityApplication{
 
 	@Bean
 	fun userDetails(): UserDetailsService {
@@ -33,7 +33,7 @@ class Example1SecurityApplication{
 }
 
 fun main(args: Array<String>) {
-	runApplication<Example1SecurityApplication>(*args)
+	runApplication<SimpleSecurityApplication>(*args)
 }
 
 @RestController
