@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring-security-practices</artifactId>
+	<artifactId>spring-security-practice</artifactId>
 	<version>1.0</version>
 	<name>spring-security</name>
 	<description>spring security examples</description>
